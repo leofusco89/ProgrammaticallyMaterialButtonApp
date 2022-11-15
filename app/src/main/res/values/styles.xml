@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btn_programmatically" value="btn_programmatically" />
+    <item type="id" name="btn_program_style"/>
+
+    <style name="ProgrammaticallyStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:id">@id/btn_program_style</item>
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_margin">5dp</item>-->
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:text">"Style programmatically"</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="strokeColor">@color/black</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+</resources>
