@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         //Add button from layout resource
         val btnLayout = LayoutInflater.from(llButtons.context).inflate(R.layout.button_custom,
             llButtons,
-            false)
+            false) as MaterialButton
         btnLayout.id = View.generateViewId()
         llButtons.addView(btnLayout)
     }
